@@ -47,7 +47,7 @@ ssdp.on("discover", (data) => {
 // Event: notification
 ssdp.on("notify", (data) => {
     if (data.nts === "ssdp:alive") {
-        console.log("Servic alive");
+        console.log("Service alive");
     } else if (data.nts === "ssdp:byebye") {
         console.log("Service byebye");
     }
@@ -60,3 +60,8 @@ ssdp.on("error", (err) => {
 
 // Discover all services on the local network
 ssdp.discover();
+
+// Stop after 5 seconds
+setTimeout(() => ssdp.stop(() => {
+    console.log("SSDP stopped");
+}), 5000);
