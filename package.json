@@ -1,0 +1,31 @@
+{
+  "name": "simple-ssdp",
+  "version": "1.0.0",
+  "description": "node.js basic ssdp implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dunspa/simple-ssdp.git"
+  },
+  "keywords": [
+    "ssdp",
+    "upnp",
+    "iot",
+    "discovery",
+    "services",
+    "devices"
+  ],
+  "author": "Jose Luis Gallego Peña",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dunspa/simple-ssdp/issues"
+  },
+  "homepage": "https://github.com/Dunspa/simple-ssdp#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "uuid": "^8.3.2"
+  }
+}
