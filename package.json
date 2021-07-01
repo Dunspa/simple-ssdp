@@ -1,6 +1,6 @@
 {
   "name": "simple-ssdp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "node.js basic ssdp implementation",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/Dunspa/simple-ssdp#readme",
   "dependencies": {
-    "ip": "^1.1.5",
     "uuid": "^8.3.2"
   }
 }
