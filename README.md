@@ -8,7 +8,7 @@ simple-ssdp supports the discovery of services using the ssdp protocol, accordin
 
 # Installation
 
-```
+```shell
 npm install simple-ssdp
 ```
 
@@ -48,7 +48,7 @@ Configuration for creating the simple-ssdp object. All are mandatory.
 
 # Example
 
-```
+```js
 // Create and configure simpleSSDP object
 const simpleSSDP = require ("../index"),
     ssdp = new simpleSSDP({
